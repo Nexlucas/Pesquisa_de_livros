@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #e8f0fe;
+    color: #222;
+}
+main {
+    max-width: 800px;
+    margin: auto; text-align: center;
+}
+button {
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 7px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #1d4ed8;
+}
+#livro {
+    margin-top: 25px;
+}
+.card {
+    background: white;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+    text-align: left;
+}
+.card h2 {
+    color: #2563eb;
+}
+
+#pesquisa{
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 7px;
+}
